@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <!-- model css  -->
+     <link rel="stylesheet" href="event.css">
+     <!-- jaquery css  -->
+     <link rel="stylesheet" href="media.css">
+     <!-- model js  -->
+     <script defer src="event.js"></script>
+     <!-- logo show in title with image  -->
+    <link rel = "icon" href = "logo.png.png" type = "logo.png.png">
+    <title>jquery</title>
+</head>
+<body>
+    
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <img src="logo.png.png" alt="">
+        </div>
+
+        <ul class="navbar_menu" id="navlist">
+            <li><a href="index.html">Home</a></li>
+            <!-- <li><a href="#About">About</a></li> -->
+            <li><a href="index1.html">Model</a></li>
+            <li><a href="index2.html">Event</a></li>
+            <li><a href="index3.html">Branches</a></li>
+        </ul>
+
+        <div class="bars" id="navbarOpen">
+            <div class="bars1"></div>
+            <div class="bars1 brasOne"></div>
+            <div class="bars1 barsTwo"></div>
+            <i class="fa fa-close" id="close"></i>
+        </div>
+    </nav>
+
+    <!-- event page  -->
+
+    <section class="event_container">
+        <div class="event_img">
+            <div class="event_text">
+                <h1>We Are <br> Qualified & <br> Professional. Event</h1>
+                <div class="button_container">
+                    <div class="btn">Read More</div>
+                    <i class="fa fa-play" id="paly_video"></i>
+                    <h2>How We Work</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- detals of the week -->
+    <h1 style="text-align: center; margin: 4rem 0;">THES WEEK</h1>
+    <section class="detals_of_car">
+        <div class="detals_of_felx">
+                <div class="detilas_list felx_details">
+                    <span>DETALS OF THE WEEK</span>
+                </div>
+                <div class="detals_of_day felx_details">
+                    <div class="day">
+                        <h1 id="days"></h1>
+                        <h1>DAYS</h1>
+                    </div>
+
+                    <div class="hours">
+                        <h1 id="hours"></h1>
+                        <h1>HRS</h1>
+                    </div>
+
+                    <div class="mint">
+                        <h1 id="mint"></h1>
+                        <h1>MINS</h1>
+                    </div>
+
+                    <div class="secs">
+                        <h1 id="secs"></h1>
+                        <h1>SECS</h1>
+                    </div>
+
+                </div>
+            <!-- </div> -->
+        </div>
+
+        <div class="details_car_list">
+            <div class="delats_img" id="carIconShow">
+                <img class="detialsImg" src="Jaguar_XE.png.png" alt=""><br>
+                <p>Affordable car service near you at the best car service centers by experienced mechanics using genuine OEM parts & manufacturer recommended guidelines</p><br>
+                <div class="detilas_rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h1>$49000.00</h1>
+                <hr>
+                </div>
+
+                <div class="details_info" id="carIconShow1">
+                    <i class="fa fa-car"><br>
+                        <p>4875Km</p>
+                    </i>
+    
+                    <i class="fa fa-cog"><br>
+                    <p>Automatic</p>
+                    </i>
+    
+                    <i class="fa fa-calendar"><br>
+                    <p>2020</p>
+                    </i>
+                </div>
+            </div>
+
+            <div class="delats_img" id="carIconShow2">
+                <img class="detialsImg" src="Jaguar_I-Pace.png" alt=""><br>
+                <p>Keep your car’s ac in a perfect condition. Our ac service packages includes ac gas refilling, blower cleaning, cooling coil cleaning, Condenser cleaning & much more.</p><br>
+                <div class="detilas_rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h1>$10,000.00</h1>
+                <hr>
+                </div>
+
+                <div class="details_info">
+                    <i class="fa fa-car"><br>
+                        <p>487Km</p>
+                    </i>
+    
+                    <i class="fa fa-cog"><br>
+                    <p>Manual</p>
+                </i>
+    
+                    <i class="fa fa-calendar"><br>
+                    <p>2019</p>
+                </i>
+                </div>
+            </div>
+
+            <div class="delats_img" id="carIconShow3">
+                <img class="detialsImg" src="aboutCar2.png.png" alt=""><br>
+                <div class="carShowFunction2"></div>
+                <p>Choose from variety of car cleaning services such as Car Wash, Rubbing Polishing, Car Dry Clean & Teflon Coating, so your car shines like brand new.</p><br>
+                <div class="detilas_rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <h1>$20,000.00</h1>
+                <hr>
+                </div>
+
+                <div class="details_info">
+                    <i class="fa fa-car"><br>
+                        <p>687Km</p>
+                    </i>
+    
+                    <i class="fa fa-cog"><br>
+                    <p>Manual</p>
+                    </i>
+    
+                    <i class="fa fa-calendar"><br>
+                    <p>2019</p>
+                    </i>
+                </div>
+            </div>
+
+            <div class="delats_img" id="carIconShow4">
+                <img class="detialsImg" src="Jaguar_F-Pace.png" alt=""><br>
+                <div class="carShowFunction3"></div>
+                <p>Brakes, Suspension, transmission, clutch or engine repair. Gaadizo provides repair services for every mechanical, electrical or technical issues of your car.</p><br>
+                <div class="detilas_rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h1>$150,000.00</h1>
+                <hr>
+                </div>
+
+                <div class="details_info">
+                    <i class="fa fa-car"><br>
+                        <p>10857Km</p>
+                    </i>
+    
+                    <i class="fa fa-cog"><br>
+                    <p>Manual</p>
+                    </i>
+    
+                    <i class="fa fa-calendar"><br>
+                    <p>2020</p>
+                    </i>
+                </div>
+            </div>
+    </section>
+
+    <!-- layout  -->
+
+    <h1 class="text-center py-5 font-szie-500">MOST POPULAR <span style="color: #0000ff;">CAR.</span></h1>
+
+    <section class="carslider">
+        <div class="carSliderWidth">
+            <div class="sliderImgShow">
+                <img src="Jaguar_F-Pace.png" alt="">
+            </div>
+
+            <div class="sliderImgShow">
+                <img src="Jaguar_I-Pace.png" alt="">
+            </div>
+
+            <div class="sliderImgShow">
+                <img src="Jaguar_XE.png.png" alt="">
+            </div>
+
+            <div class="sliderImgShow">
+                <img src="aboutCar2.png.png" alt="">
+            </div>
+
+            <div class="sliderImgShow">
+                <img src="Jaguar_F-Pace.png" alt="">
+            </div>
+
+            <div class="sliderImgShow">
+                <img src="Jaguar_I-Pace.png" alt="">
+            </div>
+
+            <div class="sliderImgShow">
+                <img src="Jaguar_XE.png.png" alt="">
+            </div>
+
+            <div class="sliderImgShow">
+                <img src="aboutCar2.png.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer_container">
+        <div class="footer_details">
+            <div class="footer_menu">
+                <h1>ABOUT US</h1>
+                <p class="about_details_us">As the dominant preferred access by customers it will be available to customers via Smartphone Pack where installed. The information, specification, engines and ...As the dominant preferred access by customers it will be available to customers via Smartphone Pack where installed. The information, specification, engines and ...</p>
+                <div class="footer_icon">
+                    <i class="fa fa-facebook" title="facebook"></i>
+                    <i class="fa fa-twitter" title="twitter"></i>
+                    <i class="fa fa-linkedin" title="linkedin"></i>
+                    <i class="fa fa-instagram" title="instagram"></i>
+                </div>
+            </div>
+
+            <div class="footer_menu footer_menu2">
+                <h1>CONTACT INFO</h1>
+                <h4 class="location">Location :</h4>
+                <hr>
+                <p class="about_details_us">Prem Nagar 3 Kirari Suleman Nagar ||| New Delhi India</p>
+                <h4 class="location">Phone :</h4>
+                <hr>
+                <h4 class="phone_font">Phone : <a href="tel:9015914116">9015914116</a></h4>
+                <h4 class="phone_font"> Email : <a href="maltio:mdajmalali747@gmail.com">mdajmalali747@gmail.com</a></h4>
+            </div>
+
+            <div class="footer_menu footer_menu1">
+                <h1>BRANCHES</h1>
+                <h4 class="location">Indai :</h4>
+                <p class="about_details_us">B-115 1st foolr kirari, New Delhi India</p>
+                <h4 class="location">Germany :</h4>
+                <p class="about_details_us">0926k 4th block building, king Avenue, New Jarmany City</p>
+                <h4 class="location"> Engliend :</h4>
+                <p class="about_details_us">0926k 4th block building, king Avenue, Engliend</p>
+            </div>
+        </div>
+
+        <!-- copright  -->
+
+        <footer class="copyRight">
+            &copyCopyRight DEC 2020 : Md Ajmal Ali | <a href="https://w3layouts.com/">W3layouts.com</a>
+        </footer>
+    </footer>
+
+</body>
+</html>

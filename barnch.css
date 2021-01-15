@@ -1,0 +1,333 @@
+@import url('media.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+                          /********************************* navbar start  ***********************/
+
+button{
+    cursor: pointer;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #0F2027;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 5px 8px 8px -6px black;
+}
+
+.logo img{
+    margin: 0 20px;
+    width: 70px;
+}
+
+.navbar_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_menu li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navbar_menu li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.navbar_menu li:hover a::before{
+ content: "";
+  position: absolute;
+  top: 45.50px;
+  width: 45px;
+  height: 10px;
+  border-bottom: 2px solid #ffffff;
+  text-align: center;
+}
+
+.bars{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 35px;
+    display: none;
+}
+
+.bars .bars1{
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.bars .brasOne{
+    width: 25px;
+    height: 5px;
+}
+
+.bars .fa-close{
+    position: absolute;
+    top: 0;
+    padding: 10px 5px;
+    font-size: 2.50rem;
+    color: #ffffff;
+    cursor: pointer;
+    display: none;
+}
+
+
+/********************************* navbar end  ***********************/
+
+.contacts_form{
+    max-width: 100%;
+    padding: 2rem;
+    background-color: #EEEFF6;
+}
+
+.contacts_text{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contacts_content{
+    flex: 1 1 400px;
+}
+
+.contacts_content img{
+    max-width: 100%;
+}
+
+.car_content{
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 5px 8px 8px -6px black;
+}
+
+form label{
+    text-align: left;
+    letter-spacing: 3.50px;
+    font-weight: 600;
+}
+
+form label span{
+    font-size: 1rem;
+    font-weight: bold;
+    color: red;
+}
+
+form label input{
+    width: 280px;
+    max-width: 100%;
+    padding: 6px;
+    border: none;
+    /* outline: none; */
+    margin: 10px 0;
+}
+
+input[type=text]{
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+input[type=email]{
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px; 
+}
+
+form .btn{
+    width: 280px;
+    max-width: 100%;
+    text-transform: uppercase;
+}
+
+/* *********************** email ********************************* */
+
+.email{
+    width: 100%;
+    height: 100%;
+    padding: 0 5rem;
+}
+
+.emailContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_email{
+    flex: 1 1 200px;
+}
+
+.emailShow{
+    background-color: #EEEFF6;
+    margin: 1rem 10px;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 5px 8px 8px -6px black;
+}
+
+.emailShow i{
+    color: #0000ffaf;
+    font-size: 1.50rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.emailShow h4{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.emailShow a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.emailShow a:hover{
+    color: #7B55FF;
+}
+
+/* ********************************* map ************************************* */
+
+.map{
+    width: 100%;
+    max-width: 100%;
+}
+
+.map{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ********************** footer container **************************** */
+
+.footer_container{
+    max-width: 100%;
+    background-color: #151515;
+    color: #586061;
+}
+
+.footer_details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.footer_menu{
+    flex: 1 1 350px;
+    padding: 5rem 1rem;
+}
+
+.footer_menu .about_details_us{
+    font-size: 16px;
+}
+
+.footer_menu h1{
+    font-size: 1.70rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.footer_menu .footer_icon{
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_menu .footer_icon i{
+    width: 35px;
+    height: 30px;
+    border: 2px solid #ffffff;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.footer_menu .footer_icon i:hover{
+    color: red;
+}
+
+.footer_menu .location{
+    font-size: 1.30rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.footer_menu .phone_font{
+    font-size: 1.10rem;
+}
+
+.footer_menu a{
+    text-decoration: none;
+    color: #586061;
+    font-size: 14px;
+}
+
+.footer_menu a:hover{
+    color: #ffffff;
+}
+
+.footer_menu hr{
+    width: 100%;
+    background-color: #000000;
+    color: red;
+}
+
+.copyRight{
+    margin-top: -50px;
+    padding: 0 0 4rem 0;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+}
+
+.copyRight a{
+    color: #339BD2;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.copyRight a:hover{
+    color: #ffffff;
+}

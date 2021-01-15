@@ -1,0 +1,246 @@
+@media screen and (max-width: 1400px){
+
+    .about_text{
+        margin: 10px 35px;
+    }
+}
+
+
+@media screen and (max-width: 1050px){
+    .footer_menu1{
+        margin-top: -120px;
+    }
+}
+
+@media screen and (max-width: 1007px){
+    .bars{
+        display: block;
+    }
+
+    .navbar ul{
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        top: 70px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+
+    .navbar li{
+        display: block;
+        margin: 35px 0;
+        line-height: 30px;
+    }
+
+    .navbar ul.active{
+        left: 0;
+    }
+
+    .navbar_menu li:hover a::before{
+         border-bottom: 2px solid transparent;
+       }
+
+       .car_text{
+           padding: 0 5px 50px 5px;
+           text-align: center;
+       }
+
+       .car_text h1{
+        padding: 0;
+        margin-top: 35px;
+    }
+
+       .car_color{
+           margin-top: -250px;
+       }
+
+       .maine_car{
+        /* position: relative; */
+        margin-top: -150px;
+        width: 80%;
+        right: 0%;
+    }
+
+    .about_car img{
+        /* padding: 0; */
+        width: 100%;
+    }
+
+    .textimonial_slider{
+        max-width: 90%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1001px){
+    .car_main_child{
+        margin-top: -320px;
+    }
+}
+
+@media screen and (max-width: 805px){
+    .myTeam_details{
+        flex: 1 1 300px;
+        padding: 1rem 10px;
+    }
+
+    .btnTechonmlgya{
+        flex: 1 1 300px;
+    }
+}
+
+@media screen and (max-width: 875px){
+.orderOne{
+    order: 0;
+}
+
+.orderTwo{
+    order: -1;
+ }
+
+ .car_mode, .car_mode1{
+     border-bottom: 1px solid #000000;
+ }
+
+ .technolgy_image{
+    flex: 1 1 300px;
+}
+.technolgy_image1{
+    flex: 1 1 300px;
+}
+.technolgy_image2{
+    flex: 1 1 300px;
+}
+.technolgy_image3{
+    flex: 1 1 300px;
+}
+
+}
+
+@media screen and (max-width: 700px){
+    .footer_menu2{
+        margin-top: -110px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .car_main_child{
+        padding: 0;
+        margin: 0 20px;
+        margin-top: -200px;
+    }
+
+    .car_color{
+        height: 350px;
+    }
+
+    .about_text{
+        padding: 10px 20px;
+    }
+}
+
+/* model car media query start  */
+@media screen and (max-width: 900px){
+    .model_box{
+        flex: 1 1 300px;
+        
+    }
+
+    .imgLeftHeading{
+        flex: 1 1 350px;
+        /* text-align: center; */
+    }
+
+    progress{
+        width: 100%;
+    }
+
+    .backgroundImg h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .imgLeftHeading p{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 654px){
+    .model_box{
+        flex: 1 1 200px;
+        
+    }
+
+    .icone_details{
+        flex: 1 1 300px;
+    }
+}
+/* model car media query end  */
+
+@media screen and (max-width: 1025px){
+    .event_img h1{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 737px){
+    .event_img h1{
+        margin-top: -85px;
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .button_container{
+        margin-top: 50px;
+        max-width: 100%;
+    }
+}
+
+/* event car  */
+
+@media screen and (max-width: 994px){
+    .delats_img{
+        flex: 1 1 300px;
+    }
+}
+
+@media screen and (max-width: 672px){
+    .sliderImgShow img{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* barnach car */
+
+@media screen and (max-width: 966px){
+    .email{
+        padding: 0 1rem;
+    }
+
+    .flex_email{
+        flex: 1 1 300px;
+    }
+}
+
+@media screen and (max-width: 378px){
+    form label input{
+        width: 280px;
+        max-width: 100%;
+    }
+
+    .car_content{
+        padding: 1rem;
+    }
+}
